@@ -10,7 +10,7 @@ class Student{
      double mark;
 
      public:
-     //methods , member functions..
+     //constructor
      Student(string n, string edu , int a , double m){
         this->name = n;
         this->education = edu;
@@ -18,7 +18,7 @@ class Student{
         this->mark = m;
 
      }
-
+     //method , member function
     void display(){
        cout<<"student name:"<<name<<endl;
        cout<<"student qualification :"<<education<<endl;
