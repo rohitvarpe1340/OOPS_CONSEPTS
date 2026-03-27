@@ -1,13 +1,16 @@
 #include <iostream>
+#include <string>
 using namespace std;
 
 class Student{
+    //properties
      string  name;
      string education;
      int age;
      double mark;
 
      public:
+     //methods , member functions..
      Student(string n, string edu , int a , double m){
         this->name = n;
         this->education = edu;
