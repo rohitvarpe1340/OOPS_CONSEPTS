@@ -3,7 +3,7 @@ using namespace std;
 
 class ShowResult{
    public :
-   //function overloading...
+   //function overloading... 
    void add(int a, int b){
     cout<<"sum is:"<<a+b<<endl;
    }
