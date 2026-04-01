@@ -17,6 +17,6 @@ int main(){
 
     ShowResult s1;
     s1.add(10,20);
-    s1.add(10,20.5);
+    s1.add(10,20.6);
     return 0;
 }
